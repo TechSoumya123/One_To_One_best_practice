@@ -1,0 +1,17 @@
+server:
+  port: 2346
+
+spring:
+  application:
+    name: One_To_One
+  datasource:
+    url: jdbc:mysql://localhost:3306/one_to_one_uni_
+    username: root
+    password: Tiger2143@+%
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        format_sql: true
